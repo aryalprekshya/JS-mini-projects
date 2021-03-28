@@ -38,20 +38,8 @@ body {
   height: 6px;
   background: black;
   position: absolute;
-  top: 48%;
+  top: 52%;
   transform-origin: 100%; /* brings the second hand to the center*/
   translate: (90deg); /* starts the second hand from 12*/
-  transition-timing-function: cubic-bezier(0.24, 1.2, 1, 1);
-}
-
-.hour_hand {
-  width: 40%;
-  height: 6px;
-  left: 1%;
-  background: black;
-  position: absolute;
-  top: 61%;
-  transform-origin: 133%;
-  translate: (90deg);
   transition-timing-function: cubic-bezier(0.24, 1.2, 1, 1);
 }

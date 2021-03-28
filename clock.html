@@ -7,7 +7,7 @@
   <body>
     <div class="clock">
       <div class="clock-face">
-        <div class="hour_hand hour-hand"></div>
+        <div class="hand hour-hand" style="width: 36%; right: 50%"></div>
         <div class="hand min-hand"></div>
         <div class="hand second-hand"></div>
       </div>
@@ -34,7 +34,7 @@
 
         //for hour
         const hour = now.getHours();
-        hourDegree = (hour / 60) * 360;
+        hourDegree = (hour / 60) * 360 + 140 + 75;
         hourHand.style.transform = `rotate(${hourDegree}deg)`;
       }
 
